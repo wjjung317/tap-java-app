@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='tapacr.azurecr.io/ds-tap-demo/apps/tanzu-java-web-app-source')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='tapacr.azurecr.io/ds-tap-demo/tanzu-java-web-app-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
 OUTPUT_TO_NULL_COMMAND = os.getenv("OUTPUT_TO_NULL_COMMAND", default=' > /dev/null ')
