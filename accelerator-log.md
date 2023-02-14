@@ -4,7 +4,7 @@
 ```json
 {
   "projectName" : "tanzu-java-web-app",
-  "repositoryPrefix" : "tapacr.azurecr.io/ds-tap-demo/apps-14-02-2023-10-22-24-828812015"
+  "repositoryPrefix" : "tapacr.azurecr.io"
 }
 ```
 ## Log
@@ -82,7 +82,7 @@
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.transformations[0].sources[1].delegate.transformations[1] (ReplaceText)
 ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [tanzu-java-web-app->tanzu-java-web-app]
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.transformations[0].sources[1].delegate.transformations[2] (ReplaceText)
-┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [your-registry.io/project->tapacr.azurecr.io/ds...(truncated)]
+┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [your-registry.io/project->tapacr.azurecr.io]
 ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.transformations[0].sources[2] (Combo)
 ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain
 ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.delegate.transformations[0].sources[2].delegate (Chain)
