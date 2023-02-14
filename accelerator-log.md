@@ -4,7 +4,7 @@
 ```json
 {
   "projectName" : "tanzu-java-web-app",
-  "repositoryPrefix" : "tapacr.azurecr.io/ds-tap-demo"
+  "repositoryPrefix" : "tapacr.azurecr.io/ds-tap-demo/apps-14-02-2023-10-22-24-828812015"
 }
 ```
 ## Log
